@@ -1,0 +1,116 @@
+.navbar img {
+  height: 80px;
+}
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.top .row img {
+  height: 380px;
+  width: 100%;
+  border-radius: 20px;
+}
+.top .card {
+  width: 330px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.top .card:hover {
+  box-shadow: 10px 5px 5px rgb(175, 173, 173);
+  transform: scale(1.1);
+}
+.top ul li {
+  list-style: none;
+  font-size: 24px;
+}
+.himg img {
+  height: 700px;
+  width: 100%;
+}
+.h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+.h2 img:hover {
+  transform: scale(0.9);
+  border: 2px;
+}
+.hc {
+  width: 98%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.foot {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.foot1 {
+  font-size: 80px;
+  text-align: center;
+}
+.foot2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+.foot3 {
+  font-size: 18px;
+  margin-left: 40px;
+  padding-left: 60px;
+}
+.foot4 {
+  background-color: rgb(35, 35, 58);
+  color: white;
+  padding: 30px;
+}
+.ft1 {
+  text-decoration: none;
+  color: white;
+}
+.ft3 {
+  text-align: end;
+}
+.ft4 img {
+  height: 50px;
+  width: 150px;
+}
+.ft5 img {
+  height: 60px;
+  width: 100px;
+  background-color: rgb(35, 35, 58);
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+.log {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-image: url(images/BGimg.avif);
+  color: white;
+  background-size: auto;
+  padding-bottom: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.log p {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Georgia;
+  margin: 40px;
+}
+.log label {
+  padding-right: 8px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.log img {
+  margin: 30px;
+}
