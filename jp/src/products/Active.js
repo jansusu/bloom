@@ -13,6 +13,7 @@ const Active = [
     ds: "LAABHA",
     price: "₹700",
     rate: "4",
+    quantity: 1,
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const Active = [
     ds: "Logo Print Sports Leggings",
     price: "₹550",
     rate: "",
+    quantity: 1,
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const Active = [
     ds: "Women Sportswear by PUMA Worldwide Graphic T-Shirt",
     price: "₹670",
     rate: "3",
+    quantity: 1,
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ const Active = [
     ds: "Floral Print To & Pyjamas Set",
     price: "₹600",
     rate: "3.5",
+    quantity: 1,
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const Active = [
     ds: "Women Straight Track Pants with Contrast Side Taping",
     price: "₹250",
     rate: "4.1",
+    quantity: 1,
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const Active = [
     ds: "Training Heathered Racerback Sports Bra",
     price: "₹300",
     rate: "3.9",
+    quantity: 1,
   },
 ];
 export default Active;

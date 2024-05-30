@@ -12,6 +12,9 @@ import HCimg1 from "../images/HCimg1.avif";
 import HCimg2 from "../images/HCimg2.avif";
 import HCimg3 from "../images/HCimg3.avif";
 import HCimg4 from "../images/HCimg4.avif";
+import { IoBagCheck } from "react-icons/io5";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { TiTick } from "react-icons/ti";
 
 const Home = () => {
   return (
@@ -111,6 +114,26 @@ const Home = () => {
           </button>
         </div>
       </div>
+      <section className="foot">
+        <div className="container">
+          <div className="row foot1">
+            <div className="col-lg-4">
+              <IoBagCheck />
+            </div>
+            <div className="col-lg-4">
+              <FaHandHoldingHeart />
+            </div>
+            <div className="col-lg-4">
+              <TiTick />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">Easy Exchange</div>
+            <div className="col-lg-4">100% HandPicked</div>
+            <div className="col-lg-4">Assured Quality</div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

@@ -10,6 +10,7 @@ const Shirt = [
     ds: "logo print regular fit shirt",
     price: "₹7,000",
     rating: "3.8",
+    quantity: 1,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const Shirt = [
     ds: "Checked Slim Fit Shirt",
     price: "₹550",
     rating: "4.2",
+    quantity: 1,
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const Shirt = [
     ds: "Men's Slimfit Cotton Shirt",
     price: "₹650",
     rating: "4.0",
+    quantity: 1,
   },
 ];
 export default Shirt;

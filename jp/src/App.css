@@ -9,6 +9,19 @@
 .nav-item {
   margin-left: 20px;
 }
+.pfix {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.top .mfix ul {
+  position: fixed;
+}
+.top {
+  padding: 20px;
+  padding-top: 120px;
+  background-color: rgb(248, 238, 250);
+}
 .top .row img {
   height: 380px;
   width: 100%;
@@ -16,16 +29,19 @@
 }
 .top .card {
   width: 330px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 20px;
+  height: 630px;
+  margin-left: 30px;
 }
 .top .card:hover {
   box-shadow: 10px 5px 5px rgb(175, 173, 173);
-  transform: scale(1.1);
+  transform: scale(0.99);
 }
 .top ul li {
   list-style: none;
-  font-size: 24px;
+  font-size: 20px;
+  padding-right: 10px;
 }
 .himg img {
   height: 700px;
@@ -35,6 +51,7 @@
   text-align: center;
   margin-top: 40px;
   color: black;
+  padding-top: 120px;
 }
 .h2 img:hover {
   transform: scale(0.9);
@@ -91,14 +108,14 @@
 }
 .log {
   text-align: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-size: 20px;
   background-image: url(images/BGimg.avif);
   color: white;
-  background-size: auto;
   padding-bottom: 130px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 120px;
 }
 .log p {
   font-size: 50px;
@@ -113,4 +130,48 @@
 }
 .log img {
   margin: 30px;
+}
+.ct {
+  padding-top: 120px;
+}
+.tds img {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.tds img:hover {
+  transform: scale(1.05);
+}
+.cartt {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+.cartpg {
+  box-shadow: 10px 5px 5px 5px gray;
+  margin: 10px;
+  border-radius: 3%;
+  border: 2px;
+  padding: 10px;
+  background-color: rgb(215, 217, 218);
+}
+.cartt thead {
+  font-size: 25px;
+  border: solid 0.5px;
+  padding: 15px;
+}
+.tbody tr:hover {
+  box-shadow: 5px;
+}
+.cartpg h1 {
+  border: solid 1px;
+  box-shadow: 5px 2.5px 2.5px grey;
+  padding: 30px;
+  background-color: rgb(77, 12, 94);
+  color: white;
+}
+.cartt {
+  background-color: rgb(252, 242, 249);
 }

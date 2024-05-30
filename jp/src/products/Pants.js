@@ -4,28 +4,31 @@ import BWMimg3 from "../images/BWMimg3.avif";
 
 const Pants = [
   {
-    id: 1,
+    id: 13,
     image: BWMimg1,
     title: "DNMX",
     ds: "Olive Green Slim Fit Front Flat Pants",
     price: "₹2,000",
     rate: "4",
+    quantity: 1,
   },
   {
-    id: 2,
+    id: 14,
     image: BWMimg2,
     title: "DNMX",
     ds: "Men Regular Fit Cargo Pants",
     price: "₹1,500",
     rate: "3.5",
+    quantity: 1,
   },
   {
-    id: 3,
+    id: 15,
     image: BWMimg3,
     title: "CAMPUS SUTRA",
     ds: "Straight Fit Cargo Pants",
     price: "₹1080",
     rate: "4.5",
+    quantity: 1,
   },
 ];
 

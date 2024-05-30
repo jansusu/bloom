@@ -4,7 +4,7 @@ import { LuUserSquare2 } from "react-icons/lu";
 import Bloomslogo from "../images/Bloomslogo.png";
 const Navbar = () => {
   return (
-    <div>
+    <div className="pfix">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">

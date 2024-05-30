@@ -1,7 +1,5 @@
 import React from "react";
-import { IoBagCheck } from "react-icons/io5";
-import { FaHandHoldingHeart } from "react-icons/fa";
-import { TiTick } from "react-icons/ti";
+
 import { Link } from "react-router-dom";
 import Bjio from "../images/Bjio.png";
 import Bvisa from "../images/Bvisa.jpg";
@@ -10,26 +8,6 @@ import Bmaster from "../images/Bmaster.jpg";
 const Footer = () => {
   return (
     <>
-      <section className="foot">
-        <div className="container">
-          <div className="row foot1">
-            <div className="col-lg-4">
-              <IoBagCheck />
-            </div>
-            <div className="col-lg-4">
-              <FaHandHoldingHeart />
-            </div>
-            <div className="col-lg-4">
-              <TiTick />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4">Easy Exchange</div>
-            <div className="col-lg-4">100% HandPicked</div>
-            <div className="col-lg-4">Assured Quality</div>
-          </div>
-        </div>
-      </section>
       <div className="container-fluid foot4">
         <div className="row foot2">
           <div className="col-lg-3">Bloom</div>

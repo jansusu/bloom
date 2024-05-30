@@ -7,15 +7,16 @@ import SBimg6 from "../images/SBimg6.jpeg";
 
 const SBeauty = [
   {
-    id: 1,
+    id: 73,
     image: SBimg1,
     title: "BOTANICAL LAB",
     ds: "Gentle face wash from botanical Lab",
     price: "₹800",
     rate: "3.9",
+    quantity: 1,
   },
   {
-    id: 2,
+    id: 74,
     image: SBimg2,
     title: "The Ordinary",
     ds: "Serum Reduces Pigmentation",
@@ -23,36 +24,40 @@ const SBeauty = [
     rate: "3.5",
   },
   {
-    id: 3,
+    id: 75,
     image: SBimg3,
     title: "ALODERMA",
     ds: "Aloe Hydrating Moisturizer",
     price: "₹450",
     rate: "3.9",
+    quantity: 1,
   },
   {
-    id: 4,
+    id: 76,
     image: SBimg4,
     title: "Revolution Skincare x Jake Jamie",
     ds: " Watermelon Hydrating Face Mask ",
     price: "₹560",
     rate: "4.1",
+    quantity: 1,
   },
   {
-    id: 5,
+    id: 77,
     image: SBimg5,
     title: "PHILGRIMS FACE CREAM",
     ds: "Red Vine Face Cream SPF 30 with Vitamin C & Rosehip Oil (PA+++)",
     price: "₹550",
     rate: "4.8",
+    quantity: 1,
   },
   {
-    id: 6,
+    id: 78,
     image: SBimg6,
     title: "TATTAVA",
     ds: "Enriching Neem Soap for Healthy Skin.",
     price: "₹120",
     rate: "4.3",
+    quantity: 1,
   },
 ];
 export default SBeauty;
