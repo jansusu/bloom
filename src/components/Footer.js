@@ -53,7 +53,7 @@ const Footer = () => {
               Beauty
             </Link>
           </div>
-          <div className="col-lg-3"></div>
+          <div className="col-lg-3">Pintrest</div>
         </div>
         <div className="row foot3">
           <div className="col-lg-3">Returns & Refund Policies</div>
@@ -63,7 +63,7 @@ const Footer = () => {
               Home
             </Link>
           </div>
-          <div className="col-lg-3">Pintrest</div>
+          <div className="col-lg-3"></div>
         </div>
         <div className="row foot3">
           <div className="col-lg-3">Promotion Terms & Conditions</div>

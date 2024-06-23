@@ -1,25 +1,38 @@
 .navbar img {
-  height: 80px;
+  height: 50px;
 }
 .navbar {
   font-size: 20px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  box-shadow:  0px 5px 5px 0px rgb(202, 201, 201) ; 
 }
-.nav-item {
-  margin-left: 20px;
-}
+ .nav-item {
+  margin-left: 20px;   
+} 
 .pfix {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
+  background-color: rgb(179, 103, 250);
+}
+.mfix{
+  margin-bottom: 100px;
+  padding-right: 40px;
 }
 .top .mfix ul {
-  position: fixed;
+  position: fixed; 
+}
+.mfix h2 {
+  font-size: 23px;
+}
+.mfix li {
+  font-size: 10px;
 }
 .top {
   padding: 20px;
-  padding-top: 120px;
+  padding-top: 80px;
   background-color: rgb(248, 238, 250);
 }
 .top .row img {
@@ -28,7 +41,7 @@
   border-radius: 20px;
 }
 .top .card {
-  width: 330px;
+  width: 300px;
   margin-top: 10px;
   border-radius: 20px;
   height: 630px;
@@ -47,38 +60,58 @@
   height: 700px;
   width: 100%;
 }
+.mySwiper {
+  width: 100%;
+  z-index: 2;
+}
 .h2 {
   text-align: center;
   margin-top: 40px;
   color: black;
   padding-top: 120px;
 }
+.h2 img{
+  height: 220px;
+}
 .h2 img:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
   border: 2px;
 }
 .hc {
-  width: 98%;
+  width: 90%;
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 .foot {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
 }
+.ops2a:hover{
+ opacity: 1;
+}
+.ops2b:hover{
+  opacity: 1;
+ }
+ .ops2c:hover{
+  opacity: 1;
+ }
+ .ops2d:hover{
+  opacity: 1;
+ }
 .foot1 {
   font-size: 80px;
   text-align: center;
 }
 .foot2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-left: 60px;
   padding-bottom: 10px;
 }
 .foot3 {
-  font-size: 18px;
+  font-size: 13px;
   margin-left: 40px;
   padding-left: 60px;
 }
@@ -96,19 +129,20 @@
 }
 .ft4 img {
   height: 50px;
-  width: 150px;
+  width: 130px;
 }
 .ft5 img {
-  height: 60px;
+  height: 50px;
   width: 100px;
   background-color: rgb(35, 35, 58);
 }
 .nav-link:hover {
   transform: scale(1.1);
+  color: white;
 }
 .log {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 20px;
   background-image: url(images/BGimg.avif);
   color: white;
@@ -121,7 +155,7 @@
   font-size: 50px;
   font-weight: bold;
   font-family: Georgia;
-  margin: 40px;
+  margin: 5px;
 }
 .log label {
   padding-right: 8px;
@@ -174,4 +208,96 @@
 }
 .cartt {
   background-color: rgb(252, 242, 249);
+}
+.c1{
+  background-image: url(images/Cartimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 55%;
+ 
+  background-color: rgb(110, 82, 136);
+  height: 700px;
+}
+.c2{
+  padding-top: 140px;
+  padding-left: 650px;
+font-family:Pacifico;
+font-style: italic;
+font-size: 80px;
+color: lavenderblush;
+}
+.c1 button{
+  margin-left: 850px;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  font-weight: bold;
+  color: rgb(91, 65, 116);
+}
+.tds4 {
+  padding: 4px;
+}
+.cartpg1{
+  padding-top: 220px;
+ 
+}
+.cartpg1 button {
+padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 20px;
+margin-bottom: 200px;
+background-color: rgb(99, 37, 117);
+color: white;
+font-weight: bold;
+}
+.cartpg1 .card {
+  box-shadow: 5px 2.5px 2.5px grey;
+  background-color: lavenderblush;
+}
+.adminpg{
+  padding-top: 120px;
+}
+.upload1{
+  padding-top: 80px;  
+}
+.upload2 {
+  background-color: rgb(216, 213, 213);
+  margin-bottom: 20px;
+}
+.upload2 form{
+  padding: 40px;
+}
+.update1a img {
+  width: 150px;
+  height: 150px;
+}
+.upload4 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.upload3 input {
+ padding-right: 500px;
+}
+.upload3{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.upload2 button {
+  margin: 20px;
+  font-size: 20px;
+}
+.update1 {
+  padding-top: 10px;
+}
+.update3 button{
+  margin-top: 60px;
+}
+.update2 h2{
+  font-size: 45px;
+  font-weight: bold;
+}
+.edit1 {
+  padding-top: 120px;
 }

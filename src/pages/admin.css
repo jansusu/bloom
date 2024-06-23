@@ -1,0 +1,20 @@
+.adm1{
+        padding-top: 80px;
+}
+.sidech-dropdown{
+        border: solid;
+        background-color: rgb(62, 4, 80);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        margin: 0px 50px 0px 50px;
+}
+.side{
+        background-color: rgb(245, 183, 235);
+        padding: 50px;
+}
+.lin{
+        text-decoration: none;
+        color: white;
+      }
